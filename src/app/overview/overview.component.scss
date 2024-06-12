@@ -1,0 +1,29 @@
+.Overview{
+}
+.row-2 {
+    padding: 40px 0px;
+    border-bottom: 2px dashed #0066ff;
+}
+.Overview .col-2{
+    flex: 1;
+
+}
+.Overview .col-2 img{
+    height: 100%;
+    width: 100%;
+    padding-left: 40px;
+}
+.col-2 h2{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.col-2 p{
+    font-size: 13px;
+    font-weight: 400;
+    padding: 10px 0;
+    color: #444;
+}
+
+.span-red{
+    font-weight: 600;
+}

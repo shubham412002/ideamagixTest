@@ -1,0 +1,44 @@
+::ng-deep .card p-accordion p-accordionTab p-accordionHeader .p-accordion-header-link {
+    /* Your custom styles here */
+    /* For example: */
+    padding: 15px; /* Increase padding */
+    background-color: #f0f0f0; /* Change background color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Apply border-radius */
+}
+
+::ng-deep .card p-accordion p-accordionTab p-accordionContent {
+    /* Your custom styles here */
+    /* For example: */
+    padding: 15px; /* Increase padding */
+    background-color: #ffffff; /* Change background color */
+    border: 1px solid #ddd; /* Add border */
+    border-radius: 5px; /* Apply border-radius */
+}
+
+
+p-accordiontab[role='heading'] {
+    /* Your custom styles here */
+    background-color: #bc0000 !important;
+}
+
+/* Override styles for accordion content */
+p-accordiontab[role='region'] {
+    border: 1px solid #ddd; 
+}
+.my-accordion{
+    background:red;
+}
+
+.my-accordion .p-accordion-header {
+    /* Styles for accordion headers */
+    background-color: #bc0000 !important;
+
+}
+
+.my-accordion .p-accordion-content {
+    /* Styles for accordion content */
+
+    background-color: #bc0000 !important;
+
+}
